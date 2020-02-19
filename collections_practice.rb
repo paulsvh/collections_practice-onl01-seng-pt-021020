@@ -42,6 +42,5 @@ def kesha_maker(array)
       yielding do
         i[2] = "$"
       end
-      end
     end
   end
