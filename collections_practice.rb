@@ -35,6 +35,4 @@ end
 def kesha_maker(array)
   kesha = []
   array.each {|n| n[2] = "$"}
-
-  end
 end
