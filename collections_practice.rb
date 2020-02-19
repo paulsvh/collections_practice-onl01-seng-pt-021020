@@ -47,7 +47,7 @@ end
 
 def add_s(array)
   i = 2
-  if i < array.length +1
+  if i < array.length + 1
     array[i] << "s"
     i = i+1
   end
