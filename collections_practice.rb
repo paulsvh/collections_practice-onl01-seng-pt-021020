@@ -46,5 +46,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-
+  i = 0
+  if i < array.length && i != 1
+    array[i] + "s"
+    i += 1
+  end
 end
