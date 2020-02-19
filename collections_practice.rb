@@ -33,12 +33,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-      i = 0
-      while i < array.length
-        yield (array[i])
-        i += 1
-      end
-      yielding do
-        i[2] = "$"
-      end
-    end
+  kesha = []
+  array.each {|n| n[2] = "$"}
+
+  end
+end
