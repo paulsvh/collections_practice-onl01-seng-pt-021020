@@ -46,7 +46,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  i = 2
+  i = 1
   if i <= array.length
     array[i] << "s"
     i += 1
