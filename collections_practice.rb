@@ -31,3 +31,17 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_maker(array)
+  if block_given?
+      i = 0
+      while i < array.length
+        yield (array[i])
+        i += 1
+      end
+      yielding do
+        i[2] = "$"
+      end
+      end
+    end
+  end
